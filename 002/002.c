@@ -3,10 +3,7 @@
 
 #include <stdio.h>
 #include <math.h>
-
-double do_dai_vecto(double xA,double yA,double xB,double yB) {
-	return sqrt(pow(xB-xA, 2) + pow(yB-yA, 2));
-}
+#include "vector.h"
 
 int main() {
 	double xA, yA, xB, yB, AB;
