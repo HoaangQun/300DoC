@@ -20,3 +20,14 @@ gcc *.c -o *.out -lm && ./*.out
 C++:
 ```bash
 g++ -o *.out *.cpp && ./*.out
+```
+
+JavaScript:
+```bash
+node *.js
+```
+
+Java:
+```bash
+javac *.java && java *
+```
