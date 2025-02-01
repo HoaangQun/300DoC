@@ -1,4 +1,4 @@
-# 300 days with Python, Ruby, C/C++
+# 300 days with Python, Ruby, C/C++, Java and JS
 
 ## run file
 
