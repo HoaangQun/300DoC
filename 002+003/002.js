@@ -1,5 +1,5 @@
 const readline = require('readline');
-const do_dai_vecto = require('./vector'); // Import hàm tính độ dài vectơ
+const do_dai_vecto = require('./vector');
 
 const rl = readline.createInterface({
     input: process.stdin,
