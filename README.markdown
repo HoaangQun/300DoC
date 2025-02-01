@@ -1,4 +1,4 @@
-# 300 days with Python, Ruby, C/C++, Java and JS
+# 300 days with Python, Ruby, C/C++ and JS
 
 ## run file
 
@@ -25,9 +25,4 @@ g++ -o *.out *.cpp && ./*.out
 JavaScript:
 ```bash
 node *.js
-```
-
-Java:
-```bash
-javac *.java && java *
 ```
