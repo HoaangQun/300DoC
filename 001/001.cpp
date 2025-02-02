@@ -3,7 +3,6 @@
 //pi = 3.141593
 
 #include <iostream>
-#include <cmath>
 #include <iomanip>
 #include "S_to_V.h"
 
