@@ -1,4 +1,4 @@
-# 300 days with Python, Ruby, C/C++ and JS
+# 300 days with Python, Ruby, C/C++
 
 ## I'm currently focusing on improving my skills in Python, Ruby, C, and C++.
 
