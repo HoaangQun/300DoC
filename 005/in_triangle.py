@@ -5,7 +5,7 @@ def check_in(S1, S2, S3, Sf):
     St = S1 + S2 + S3
     if St == Sf:
         if S1 == 0 or S2 == 0 or S3 == 0:
-            print("Diem nam tren tam giac")
+            print("Diem nam tren canh tam giac")
         else:
             print("Diem nam trong tam giac")
     else:

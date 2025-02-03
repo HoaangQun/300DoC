@@ -2,10 +2,8 @@
 //tinh do dai vecto AB
 
 #include <iostream>
-#include <cmath>
 #include <iomanip>
 #include "vector.h"
-
 using namespace std;
 
 int main() {

@@ -11,10 +11,10 @@ public class j004 {
 		
 		DecimalFormat df = new DecimalFormat(".0");
 
-		if (Triangle.check(a, b, c)) {
-			String type = Triangle.type(a, b, c);
+		if (triangle.check(a, b, c)) {
+			String type = triangle.type(a, b, c);
 			System.out.println(type);
-			double S = Triangle.Heron(a, b, c);
+			double S = triangle.Heron(a, b, c);
 			System.out.println("Dien tich S = " + df.format(S));
 		} else {
 			System.out.println("Khong phai tam giac");

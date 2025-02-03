@@ -7,7 +7,7 @@ def check_in(s1, s2, s3, sf)
   if st == sf
     if s1 == 0 || s2 ==0 || s3 == 0
 
-      puts "Diem nam tren tam giac"
+      puts "Diem nam tren canh tam giac"
     
     else
     
