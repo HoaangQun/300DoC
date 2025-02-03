@@ -1,23 +1,28 @@
-# 300 days with Python, Ruby, C/C++, ...
+# 300 days with Python, Ruby, C/C++, Java, ...
 
-## I'm currently focusing on improving my skills in Python, Ruby, C, and C++.
+## I'm currently focusing on improving my skills in Python, Ruby, C, C++ and Java.
 
-Python:
+### Python:
 ```bash
 python *.py
 ```
 
-Ruby:
+### Ruby:
 ```bash
 ruby *.rb
 ```
 
-C:
+### C:
 ```bash
 gcc *.c -o *.out -lm && ./*.out
 ```
 
-C++:
+### C++:
 ```bash
 g++ -o *.out *.cpp && ./*.out
+```
+
+### Java:
+```bash
+javac *.java && java *
 ```
