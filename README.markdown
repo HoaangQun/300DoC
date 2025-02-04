@@ -2,6 +2,8 @@
 
 ## I'm currently focusing on improving my skills in Python, Ruby, C, C++ and Java.
 
+## ! I use Linux
+
 ### Python:
 ```bash
 python *.py
