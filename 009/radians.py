@@ -11,7 +11,7 @@ def goc_phan_tu(a):
         print("x thuoc goc phan tu thu II")
     elif 180 <=a and a < 270:
         print("x thuoc goc phan tu thu III")
-    elif 270 <= a and a <= 360:
+    elif 270 <= a and a < 360:
         print("x thuoc goc phan tu thu IV")
     else:
         print("Goc khong hop le!")

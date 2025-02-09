@@ -11,7 +11,7 @@ void goc_phan_tu(double a) {
 		printf("x thuoc goc phan tu thu II\n");
 	} else if ( 180 <= a && a < 270 ) {
 		printf("x thuoc goc phan tu thu III\n");
-	} else if ( 270 <= a && a <= 360 ) {
+	} else if ( 270 <= a && a < 360 ) {
 		printf("x thuoc goc phan tu thu IV\n");
 	} else {
 		printf("Goc khong hop le!\n");

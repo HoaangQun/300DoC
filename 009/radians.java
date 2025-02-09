@@ -11,7 +11,7 @@ public class radians {
 			System.out.println("x thuoc goc phan tu thu II");
 		} else if ( 180 <= a && a < 270 ) {
 			System.out.println("x thuoc goc phan tu thu III");
-		} else if ( 270 <= a && a <= 360 ) {
+		} else if ( 270 <= a && a < 360 ) {
 			System.out.println("x thuoc goc phan tu thu IV");
 		} else {
 			System.out.println("Goc khong hop le!");
