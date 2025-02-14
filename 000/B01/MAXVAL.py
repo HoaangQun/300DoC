@@ -6,7 +6,15 @@ def In(file_name):
     return lst
 
 def findMAX(lst):
-    return max(lst) % min(lst)
+    maximod = 0
+    n = len(lst)
+
+    for i in range (n):
+        for j in range (n):
+            if lst[i] >= lst[j] and i!=j:
+                maximod = max(maximod, lst[i] % lst[j])
+        
+    return maximod
 
 def Write(file_name, result):
     with open(file_name, "w") as file:
