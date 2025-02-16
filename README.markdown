@@ -1,8 +1,6 @@
-# 300 days with Python, Ruby, C/C++, Java, ...
+# Becoming a Developer: 300 Days of Progress
 
-## I'm currently focusing on improving my skills in Python, Ruby, C, C++ and Java.
-
-## ! I use Linux
+## ! I use Linux ( Arch)
 
 ### Python:
 ```bash
