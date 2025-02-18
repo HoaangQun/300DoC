@@ -1,6 +1,6 @@
 # Becoming a Developer: 300 Days of Progress
 
-## ! I use Linux ( Arch)
+## ! I use Linux (Arch)
 
 ### Python:
 ```bash
