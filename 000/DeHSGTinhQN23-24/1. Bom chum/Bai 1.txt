@@ -1,0 +1,12 @@
+Bài 1. BOM CHÙM
+Hiện nay, cuộc chiến giữa hai nước RU và UC ngày càng khốc liệt. 
+Nước RU sử dụng những quả bom chùm có khối lượng lên đến  đơn vị khối lượng, 
+có sức mạnh công phá bằng tổng của các ước nguyên dương của nó. 
+Nước UC muốn bảo vệ đất nước của mình thì với mỗi quả bom chùm của RU bắn ra phải đối kháng lại bằng quả bom có sức công phá tương đương.
+Bạn là người lập trình, hãy thống kê lại với q quả bom chùm khối lượng lần lượt: a1, a2, …, aq sẽ có sức công phá tương ứng là bao nhiêu nhé!
+Dữ liệu: Vào từ tệp văn bản BOMCHUM.INP gồm:
+    • Dòng thứ nhất chứa duy nhất số nguyên dương q (6).
+    • Dòng thứ hai chứa q số nguyên dương: a1, a2,…, aq, số thứ i có khối lượng là ai 
+.
+Kết quả: Ghi ra tệp văn bản BOMCHUM.OUT gồm q số, số thứ i thể hiện sức mạnh công phá của quả bom có khối lượng ai. 
+Các số in ra phân cách nhau bởi một dấu cách.
