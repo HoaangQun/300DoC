@@ -37,7 +37,6 @@ def main_function(lP, lQ, K):
 
     for item in combinations(fQ, K):
         if gcdL(item) == P and lcmL(item) == Q:
-            print(item)
             result += factorial(K)
 
     return result % MOD
