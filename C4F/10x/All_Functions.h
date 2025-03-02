@@ -32,9 +32,7 @@ int Fibonacci(int a) {
 };
 
 int GCD(int a, int b) {
-    if (b == 0) return a;
-    if (a == 0) return b;
-    if (b > a) return GCD(a, b % a);
+    if (b == 0) ? a return a;
     return GCD(b, a % b);
 };
 
