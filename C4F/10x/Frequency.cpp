@@ -1,5 +1,4 @@
 #include "All_Functions.h"
-#include <unordered_map>
 
 int main() {
     string a;
