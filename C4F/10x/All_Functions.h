@@ -32,8 +32,7 @@ int Fibonacci(int a) {
 };
 
 int GCD(int a, int b) {
-    if (b == 0) ? a return a;
-    return GCD(b, a % b);
+    if (b == 0) return a; return GCD(b, a % b);
 };
 
 bool Prime(int a) {
