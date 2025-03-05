@@ -10,7 +10,6 @@ def security_level(la, K):
     la = cleanlist(la)
     cp = 0
     for i in range (len(la)-1):
-        if i+i == K: cp+= 1
         ssl = la[:i] + la[i+1:]
         for item in ssl:
             if la[i] + item == K:

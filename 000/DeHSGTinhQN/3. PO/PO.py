@@ -1,6 +1,6 @@
 MOD = 10**9 + 7
 
-def maximal(N, S, Q, Na):
+def maximal(S, Q, Na):
 
     dp = [0] * (S + 1)
     cnt = [0] * (S + 1)
@@ -27,7 +27,7 @@ with open ("PO.INP", "r") as f:
     Q = int(f.readline())
     lst = list(map(int, f.readline().split()[:N]))
 
-result = maximal(N, S, Q, lst)
+result = maximal(S, Q, lst)
 
 with open ("PO.OUT", "w") as f:
     f.write(result)
