@@ -3,7 +3,7 @@
 using namespace std;
 int second_maxi(int arr[], int n) {
     int max = arr[0];
-    int smax = 0;
+    int smax = INT_MIN;
     for (int i = 0; i < n; i++) if (arr[i]>max) max = arr[i];
     for (int i = 0; i < n; ++i) if (arr[i]>smax && arr[i] < max) smax = arr[i];
     return smax;
