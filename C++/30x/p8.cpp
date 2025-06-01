@@ -7,7 +7,7 @@ void sorted(int arr[], int left, int right) {
     int pivot = arr[right];
     int i = left - 1;
     for (int j = left; j < right; j++) {
-        if (arr[j] <= pivot) {
+        if (arr[j] < pivot) {
             i++;
             int temp = arr[i];
             arr[i] = arr[j];

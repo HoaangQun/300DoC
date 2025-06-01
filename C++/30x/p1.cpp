@@ -6,7 +6,7 @@ vector<int> fibonacci(int n) {
     if (n == 2) return {0, 1, 1};
     vector<int> fib = {0, 1};
     int i = 2;
-    while (fib.back() < n - fib[fib.size()-2]) {
+    while (fib[i-1] + fib[i-2] < n) {
         fib.push_back(fib[i-1] + fib[i - 2]);
         i++;
     } return fib;
